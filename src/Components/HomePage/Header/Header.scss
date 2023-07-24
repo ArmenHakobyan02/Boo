@@ -1,0 +1,63 @@
+.Header-App {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    background-color: #00B553;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.Header-Left-div {
+    width: 600px;
+
+    h3 {
+        color: white;
+        font-weight: 400;
+        line-height: 50px;
+        margin-top: 50px;
+    }
+
+    button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        background-color: #00DF67;
+        color: #F5F5F5;
+        margin-top: 20px;
+        font-weight: 400;
+        padding: 10px 25px;
+        font-size: 18px;
+        line-height: 35px;
+
+        svg {
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.Header-Right-div {
+    width: 400px;
+
+    img {
+        width: 400px;
+        border-radius: 15px;
+        object-fit: cover;
+        background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .Header-Right-div {
+        display: none;
+    }
+}

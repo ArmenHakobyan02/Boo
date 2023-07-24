@@ -1,0 +1,48 @@
+.Using-App {
+    width: 100%;
+    height: auto;
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+
+
+.using-description {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    img {
+        width: 350px !important;
+    }
+    
+    h4 {
+        font-size: 40px;
+        line-height: 70px;
+        color: #00823C;
+        margin-top: 10px;
+
+        &:nth-child(2){
+            color: #00B553;
+            text-align: end;
+        }
+    }
+
+    &:last-child{
+        h4{
+            color: #00DF67;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .using-description{
+        flex-wrap: wrap;
+    }
+
+}

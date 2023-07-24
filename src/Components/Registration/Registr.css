@@ -1,0 +1,181 @@
+.Registr-App {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+.Registr-App h2 {
+  text-align: start;
+  font-weight: 500;
+}
+.Registr-App h3 {
+  text-align: start;
+  color: #444441;
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.Registr-App input[type=Radio] {
+  width: 25px;
+  height: 25px;
+}
+.Registr-App label {
+  font-size: 20px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.Registr-top {
+  width: 100%;
+  height: auto;
+}
+.Registr-top p {
+  margin-top: 20px;
+}
+
+.Registr-gender {
+  width: 20%;
+  height: 50px;
+  display: flex;
+}
+
+.Registr-role {
+  width: 100%;
+  height: 150px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Registr-role .Registr-role-item {
+  width: 34%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.Registr-role .Registr-role-item label {
+  display: flex;
+  text-align: start;
+  margin-top: 15px;
+}
+.Registr-role .Registr-role-item #avatar {
+  background-color: antiquewhite;
+  height: 150px;
+  width: 150px;
+  border: solid 3px #08f;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  transition: background-color ease-out 200ms;
+}
+.Registr-role .Registr-role-item #preview {
+  position: relative;
+}
+.Registr-role .Registr-role-item button {
+  padding: 18px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #08f;
+  box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2), 0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+  transition: background-color ease-out 120ms;
+  position: absolute;
+  right: -5%;
+  bottom: 0%;
+}
+.Registr-role .Registr-role-item button:hover {
+  background-color: #45a;
+}
+
+.Regsitr-Inputs-item {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.Regsitr-Inputs-item label {
+  margin-left: 0%;
+  padding: 5px 0;
+}
+.Regsitr-Inputs-item input {
+  width: 80%;
+  height: 40px;
+  display: inline-block;
+}
+.Regsitr-Inputs-item ::-moz-placeholder {
+  font-size: 14px;
+  padding: 0 5px;
+}
+.Regsitr-Inputs-item ::placeholder {
+  font-size: 14px;
+  padding: 0 5px;
+}
+.Regsitr-Inputs-item .flex-colum {
+  width: 50%;
+}
+.Regsitr-Inputs-item .flex-colum svg {
+  margin-left: -5%;
+  font-size: 22px;
+}
+
+.Registr-bottom {
+  width: 100%;
+  height: auto;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 30px;
+  margin-top: 40px;
+}
+.Registr-bottom section {
+  width: 100%;
+  height: 50px;
+  padding: 0px;
+}
+.Registr-bottom section h4 {
+  color: black;
+}
+.Registr-bottom .Registr-bottom-item {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Registr-bottom .Registr-bottom-item .flex-colum {
+  width: 45%;
+  flex-wrap: wrap;
+}
+.Registr-bottom .Registr-bottom-item .flex-colum label {
+  color: black;
+  font-size: 18px;
+  margin-left: 0;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.Registr-bottom .Registr-bottom-item .flex-colum select {
+  width: 250px;
+  font-size: 14px;
+  padding: 5px 0;
+}
+.Registr-bottom .Registr-bottom-item .flex-colum .Sign-in {
+  width: 450px;
+}
+.Registr-bottom .Registr-bottom-item .flex-colum a {
+  text-decoration: underline;
+}
+.Registr-bottom .Registr-bottom-item button {
+  padding: 15px 50px;
+  text-align: end;
+  border-radius: 20px;
+  margin-top: 20px;
+  background-color: rgb(0, 130, 60);
+  border: none;
+  color: #f5f5f5;
+}/*# sourceMappingURL=Registr.css.map */

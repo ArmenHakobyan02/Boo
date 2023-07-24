@@ -1,0 +1,210 @@
+.Registr-App {
+    width: 100%;
+    height: auto;
+    // border: solid 1px red;
+    margin-top: 100px;
+    padding: 50px 0;
+
+    h2{
+        text-align: start;
+        font-weight: 500;
+    }
+
+    h3 {
+        text-align: start;
+        color: #444441;
+        margin-top: 20px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    input[type="Radio"] {
+        width: 25px;
+        height: 25px;
+    }
+
+    label {
+        font-size: 20px;
+        cursor: pointer;
+        gap: 10px;
+    }
+}
+
+.Registr-top {
+    width: 100%;
+    height: auto;
+    // border: solid 1px red;
+
+    p {
+        margin-top: 20px;
+    }
+}
+
+.Registr-gender {
+    width: 20%;
+    height: 50px;
+    // border: solid 1px red;
+    display: flex;
+}
+
+.Registr-role {
+    width: 100%;
+    height: 150px;
+    // border: solid 1px red;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    .Registr-role-item {
+        width: 34%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+            label{
+                display: flex;
+                text-align: start;
+                margin-top: 15px;
+            }
+
+        #avatar {
+            background-color: antiquewhite;
+            height: 150px;
+            width: 150px;
+            border: solid 3px #08f;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 50%;
+            transition: background-color ease-out 200ms;
+        }
+
+        #preview {
+            position: relative;
+        }
+
+        button {
+            padding: 18px;
+            border-radius: 50%;
+            border: none;
+            cursor: pointer;
+            background-color: #08f;
+            box-shadow: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+                0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+            transition: background-color ease-out 120ms;
+            position: absolute;
+            right: -5%;
+            bottom: 0%;
+
+            &:hover {
+                background-color: #45a;
+            }
+        }
+    }
+}
+
+
+.Regsitr-Inputs-item {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    label {
+        margin-left: 0%;
+        padding: 5px 0;
+    }
+
+    input {
+        width: 80%;
+        height: 40px;
+        display: inline-block;
+
+    }
+
+    ::placeholder {
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .flex-colum {
+        width: 50%;
+
+        svg{
+            margin-left: -5%;
+            font-size: 22px;
+        }
+    }
+}
+
+
+.Registr-bottom {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f5;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 30px;
+    margin-top: 40px;
+
+    section {
+        width: 100%;
+        height: 50px;
+        padding: 0px;
+
+        h4 {
+            color: black;
+        }
+    }
+
+    .Registr-bottom-item {
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .flex-colum {
+            width: 45%;
+            flex-wrap: wrap;
+
+            label {
+                color: black;
+                font-size: 18px;
+                margin-left: 0;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+
+            select {
+                width: 250px;
+                font-size: 14px;
+                padding: 5px 0;
+            }
+
+            .Sign-in {
+                width: 450px;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+        button{
+            padding: 15px 50px;
+            text-align: end;
+            border-radius: 20px;
+            margin-top: 20px;
+            background-color: rgba(0, 130, 60, 1);
+            border: none;
+            color: #f5f5f5;
+        }
+
+    }
+}

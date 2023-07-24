@@ -1,0 +1,162 @@
+.Mathematics-App {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Mathematics-App .Mathematics_image {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.Mathematics-App .Mathematics_image img {
+  width: 100%;
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Mathematics-App .Mathematics_div_items {
+  width: 25%;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #00DF67;
+  position: absolute;
+  top: 120px;
+  right: 8%;
+}
+.Mathematics-App .Mathematics_div_items div {
+  width: 40%;
+  height: 100%;
+  background-color: #00823C;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 20px;
+}
+.Mathematics-App .Mathematics_div_items p {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  color: #F5F5F5;
+  z-index: 99;
+}
+.Mathematics-App form {
+  width: 25%;
+  height: 50px;
+  background-color: #00DF67;
+  position: absolute;
+  top: 260px;
+  right: 8%;
+  border-radius: 10px;
+}
+.Mathematics-App form input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color: #00DF67;
+  padding-left: 3%;
+  border: none;
+  outline: none;
+  color: #F5F5F5;
+}
+.Mathematics-App form input::-moz-placeholder {
+  color: #F5F5F5;
+  font-size: 15px;
+}
+.Mathematics-App form input::placeholder {
+  color: #F5F5F5;
+  font-size: 15px;
+}
+.Mathematics-App form svg {
+  margin-left: -10%;
+  color: #F5F5F5;
+  font-size: 22px;
+}
+
+.Courses_title {
+  width: 25%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #00823C;
+  position: absolute;
+  top: 40px;
+  right: 8%;
+}
+.Courses_title h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #F5F5F5;
+}
+
+/* Mathematics Main div One*/
+.Mathematics_Main_div {
+  width: 85%;
+  height: 750px;
+  padding-top: 50px;
+}
+
+.Mathematics_Main_Section-one {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(90deg, #009846 34.71%, #00DF67 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+.Mathematics_Main_Section-one h3 {
+  color: #F5F5F5;
+  font-size: 22px;
+}
+
+.Mathematics_Main_Section-Items {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+.Mathematics_Main_Section-Items div {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 5px;
+  margin-right: 1%;
+}
+.Mathematics_Main_Section-Items h3 {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 25px;
+}
+.Mathematics_Main_Section-Items h3 span {
+  color: #566E61;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Mathematics Main div Two */
+.Mathematics_Main_Section-Two {
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(90deg, #009846 53.4%, #00DF67 100%);
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2509803922);
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  margin-top: 80px;
+}
+.Mathematics_Main_Section-Two h3 {
+  color: #F5F5F5;
+  font-size: 22px;
+}/*# sourceMappingURL=Mathematics.css.map */

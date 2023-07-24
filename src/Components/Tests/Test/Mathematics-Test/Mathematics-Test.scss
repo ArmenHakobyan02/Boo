@@ -1,0 +1,165 @@
+.Mathematics_Test-App {
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .Mathematics_Test_image {
+        width: 100%;
+        height: auto;
+        position: relative;
+
+        img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+        }
+    }
+
+    form {
+        width: 25%;
+        height: 50px;
+        background-color: #00DF67;
+        position: absolute;
+        top: 260px;
+        right: 8%;
+        border-radius: 10px;
+
+        input {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            background-color: #00DF67;
+            padding-left: 3%;
+            border: none;
+            outline: none;
+            color: #F5F5F5;
+
+            &::placeholder {
+                color: #F5F5F5;
+                font-size: 15px;
+            }
+        }
+
+        svg {
+            margin-left: -10%;
+            color: #F5F5F5;
+            font-size: 22px;
+        }
+    }
+}
+
+.Mathematics_Test_title {
+    width: 25%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: #00823C;
+    position: absolute;
+    top: 40px;
+    right: 8%;
+
+    h2 {
+        font-size: 30px;
+        color: #F5F5F5;
+    }
+}
+
+.Mathematics_Test_div_items {
+    width: 25%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: rgba(228, 228, 228, 1);
+    position: absolute;
+    top: 120px;
+    right: 8%;
+
+    div {
+        width: 40%;
+        height: 100%;
+        background: #00B553;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 20px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: 500;
+        letter-spacing: 0em;
+        color: #00823C;
+        z-index: 99;
+    }
+}
+
+/* Mathematics_Test_Main */
+
+.Mathematics_Test_Main {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+}
+
+.Mathematics_Test_Main_Item {
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    img {
+        height: 220px;
+        background-repeat: no-repeat;
+    }
+}
+
+.Mathematics_Test_Main_Items {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 0 15px;
+
+    h4 {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 30px;
+        color: #F5F5F5;
+        text-align: center;
+
+    }
+}
+
+.ShowColorOne {
+    background-color: #00823C;
+}
+
+.ShowColorTwo {
+    background-color: #00B553;
+}
+
+.ShowColorTree {
+    background-color: #00DF67;
+}

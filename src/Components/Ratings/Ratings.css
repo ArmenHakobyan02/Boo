@@ -1,0 +1,119 @@
+.Ratings-App {
+  width: 100%;
+  height: 800px;
+  /* border: solid 1px red; */
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Ratings-App .container {
+  height: 500px;
+  margin-top: 10px;
+  /* border: solid 1px; */
+  padding: 0;
+  overflow: hidden;
+}
+
+.Ratings-top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Ratings-top .Rating-top-items {
+  width: 31%;
+  height: 40px;
+  /* border: solid 1px; */
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.Ratings-top .Rating-top-items p {
+  color: #00823C;
+  font-size: 25px;
+  font-weight: 500;
+}
+.Ratings-top .Rating-top-items input {
+  width: 60%;
+  height: 30px;
+  background-color: #00DF67;
+  border: none;
+  outline: none;
+  padding: 0 5px;
+  border-radius: 5px;
+}
+.Ratings-top .Rating-top-items input::-moz-placeholder {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+.Ratings-top .Rating-top-items input::placeholder {
+  color: #f5f5f5;
+  font-size: 16px;
+}
+.Ratings-top .Rating-top-items svg {
+  margin-left: -10%;
+  color: #f5f5f5;
+}
+.Ratings-top .Rating-top-items select {
+  width: 100%;
+  height: 30px;
+  background-color: #00B553;
+  border-radius: 10px;
+  color: #f5f5f5;
+  padding: 0 5px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+}
+.Ratings-top .Rating-top-items select option {
+  padding: 15px 0;
+  outline: none;
+}
+
+/* Ratinsg Main */
+.Ratings-Center {
+  width: 100%;
+  height: 350px;
+}
+.Ratings-Center .Ratings-Center-items {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Ratings-Center .Ratings-Center-items .Ratings-Center-items-count {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f5f5f5;
+  background-color: #00823C;
+  border-radius: 10px;
+}
+.Ratings-Center .Ratings-Center-items .Ratings-Center-items-Name {
+  width: 30%;
+  height: 40px;
+  background-color: #00B553;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 10px;
+}
+.Ratings-Center .Ratings-Center-items .Ratings-Center-items-Name p {
+  color: #f5f5f5;
+}
+.Ratings-Center .Ratings-Center-items .Ratings-Center-items-right-div {
+  width: 65%;
+  height: 40px;
+  background-color: #00DF67;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px;
+  border-radius: 10px;
+  color: #f5f5f5;
+}/*# sourceMappingURL=Ratings.css.map */

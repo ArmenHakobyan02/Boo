@@ -1,0 +1,85 @@
+{
+  "coursesarray": [
+    {
+      "id": 1,
+      "Courses": "Մաթեմատիկա",
+      "color": "#00823C",
+      "link": "Mathematics"
+    },
+    {
+      "id": 2,
+      "Courses": "Պատմություն",
+      "color": "#00B553",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "Courses": "Ծրագրավորում",
+      "color": "#00DF67",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "Courses": "Անգլերեն",
+      "color": "#00823C",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "Courses": "UI/UX դիզայն",
+      "color": "#00DF67",
+      "link": ""
+    },
+    {
+      "id": 6,
+      "Courses": "Մարքեթինգ",
+      "color": "#00DF67",
+      "link": ""
+    }
+  ],
+
+  "PopularCoursesArray": [
+    {
+      "id": 1,
+      "img": "img./Boo.png",
+      "CoursesName": "Անգլերեն",
+      "color": "#00B553",
+      "count": 358
+    },
+    {
+      "id": 2,
+      "img": "",
+      "CoursesName": "Պատմություն",
+      "color": "#00DF67",
+      "count": 358
+    },
+    {
+      "id": 3,
+      "img": "img/math.jpg",
+      "CoursesName": "Ծրագրավորում",
+      "color": "#00823C",
+      "count": 450
+    },
+    {
+      "id": 4,
+      "img": "img/Boo.png",
+      "CoursesName": "Գրաֆիկ Դիզայն",
+      "color": "#00B553",
+      "count": 256
+    },
+    {
+      "id": 5,
+      "img": "img/English.jpg",
+      "CoursesName": "Մարքեթինգ",
+      "color": "#00DF67",
+      "count": 316
+    },
+    {
+      "id": 6,
+      "img": "img/English.jpg",
+      "CoursesName": "UI/UX դիզայն",
+      "color": "#00823C",
+      "count": 450
+    }
+  ]
+}

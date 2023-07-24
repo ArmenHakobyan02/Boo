@@ -1,0 +1,97 @@
+.Foouter-App {
+    width: 100%;
+    height: 300px;
+    /* border: solid 1px red; */
+    display: flex;
+    justify-content: center;
+    background-color: #00823C;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .Footer-logo {
+        width: 30%;
+        height: 250px;
+        /* border: solid 1px red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            font-size: 50px;
+            margin-top: 60px;
+            color: #00823C;
+            background-color: #00823C;
+        }
+    }
+}
+
+.Footer-Form {
+    width: 35%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .Footer_Form_items {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+
+        h6 {
+            margin-top: 50px;
+        }
+
+        #Email {
+            width: 95%;
+            height: 35px;
+            border-radius: 10px;
+            outline: none;
+            border: none;
+            padding: 10px;
+            color: #00823C;
+        }
+
+        button {
+            padding: 8px 52px;
+            border-radius: 10px;
+            border: none;
+            color: #00823C;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            background: #00B553;
+            color: #F5F5F5;
+
+            &:last-child {
+                background-color: #00DF67;
+            }
+        }
+    }
+}
+
+.Footer-Social {
+    width: 30%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0 10px;
+        gap: 15px;
+
+        img {
+            width: 35px;
+            height: 35px;
+        }
+    }
+}

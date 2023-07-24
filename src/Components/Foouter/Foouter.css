@@ -1,0 +1,87 @@
+.Foouter-App {
+  width: 100%;
+  height: 300px;
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: center;
+  background-color: #00823C;
+}
+.Foouter-App .container {
+  display: flex;
+  justify-content: space-around;
+}
+.Foouter-App .Footer-logo {
+  width: 30%;
+  height: 250px;
+  /* border: solid 1px red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Foouter-App .Footer-logo img {
+  font-size: 50px;
+  margin-top: 60px;
+  color: #00823C;
+  background-color: #00823C;
+}
+
+.Footer-Form {
+  width: 35%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-Form .Footer_Form_items {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+.Footer-Form .Footer_Form_items h6 {
+  margin-top: 50px;
+}
+.Footer-Form .Footer_Form_items #Email {
+  width: 95%;
+  height: 35px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  color: #00823C;
+}
+.Footer-Form .Footer_Form_items button {
+  padding: 8px 52px;
+  border-radius: 10px;
+  border: none;
+  color: #00823C;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  background: #00B553;
+  color: #F5F5F5;
+}
+.Footer-Form .Footer_Form_items button:last-child {
+  background-color: #00DF67;
+}
+
+.Footer-Social {
+  width: 30%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Footer-Social .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+  gap: 15px;
+}
+.Footer-Social .container img {
+  width: 35px;
+  height: 35px;
+}/*# sourceMappingURL=Foouter.css.map */
